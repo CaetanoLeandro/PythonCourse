@@ -7,7 +7,7 @@ total_tentativas = 3
 rodada = 1
 
 while (rodada <= total_tentativas):
-    print("Tentativas", rodada, "de", total_tentativas)
+    print("Tentativas {} de {}", format(rodada, total_tentativas))
     chute = input("Digite o seu número: ")
     print("Voce digitou: ", chute)
     chute = int(chute)  # converte string >> inteiro
